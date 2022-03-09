@@ -1,6 +1,6 @@
-def sum_(a,b):
-    x = a+b
+def sum_(a,b,c):
+    x = a+b+c
     print(x)
 
-y,z = map(int,input().split())
-sum_(y,z)
+y,z,m = map(int,input().split())
+sum_(y,z,m)
